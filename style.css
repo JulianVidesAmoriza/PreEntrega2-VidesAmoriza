@@ -97,3 +97,7 @@ nav .d-flex {
     justify-content: space-between;
 
 }
+
+.carousel {
+    padding-bottom: 20px;
+}
