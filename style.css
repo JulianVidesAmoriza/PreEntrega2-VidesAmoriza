@@ -80,7 +80,7 @@ nav .d-flex {
     text-transform: uppercase;
     position: sticky;
     top: 0;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 50px 50px;
     }
     
@@ -229,6 +229,49 @@ nav .d-flex {
     }
 
 }
+
+
+.chat-bubble{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+/*-------FOOTER-----*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-right: 50px;
+
+}
+
+
+.background-color-footer{
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.logo-bottom{
+display: flex;
+justify-content: flex-start;
+margin-left: 20px;
+
+}
+
+.pie{
+    color: #808080;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+
 
 /*
 @media screen and (max-width: 340px){
