@@ -19,6 +19,7 @@ a:visited {
 
 a:hover {
     color: #a63f6f;
+    transition: 1s;
 }
 
 a:active {
@@ -233,7 +234,14 @@ nav .d-flex {
 
 .chat-bubble{
     position: fixed;
-    bottom: 10px;
+    top: 610px;
+    right: 150px;
+    left: 1280px;
+}
+
+.miku-chat{
+    position: fixed;
+    bottom: 0px;
     right: 10px;
 }
 
@@ -242,7 +250,7 @@ nav .d-flex {
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     margin-right: 50px;
 
